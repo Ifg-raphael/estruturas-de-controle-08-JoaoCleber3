@@ -1,5 +1,5 @@
-altura = float(input("Forneça a altura: "))
-sexo = input("Forneça o sexo: (F ou M):")
+altura = float(input())
+sexo = input()
 if sexo == "M":
     peso_ideal = (72.7*altura) - 58
 if sexo == "F":
